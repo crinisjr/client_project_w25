@@ -1,0 +1,270 @@
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+.skip {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+
+  .skip:focus {
+    position: static;
+    width: auto;
+    height: auto;
+  }
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+nav{
+    width: 100%;
+    background-color: #00274C;
+    padding: 10% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul{
+text-align: center;
+margin: 0;
+padding: 0;
+}
+
+nav ul li{
+    margin: 5% 0;
+    border: solid 3px #FFCB05;
+    padding: 10% 0;
+     
+    
+}
+
+nav ul li a {
+text-decoration: none;
+font-size: 100%;
+color: #ffffff;
+margin: 5% 5%;
+display: block;
+}
+
+
+nav ul li a:hover {
+    background-color: #FFCB05; 
+   
+  }
+
+
+h1{
+    margin: 10%;
+    font-size: 120%;
+    color: #00274C;
+    text-align: center;
+
+}
+
+.mainHeader{
+    text-align: center;
+}
+
+h2{
+    background-color: #00274C;
+    color: #ffffff;
+    margin: 10% 5%;
+    text-align: center;
+}
+
+h3{
+    font-size: 80%;
+   
+}
+
+p{
+    margin: 8% 5%;
+}
+
+.main-ol{
+    margin: 15%;
+    text-align: center;
+}
+
+.main-ol li{
+    margin: 10%;
+    text-decoration: underline;
+}
+
+.physicalHealth{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:5%;
+    padding: 5%;
+    margin: 0 auto;
+}
+
+.physicalHealth-item{
+    border:solid 2px #FFCB05;
+    text-align: center;
+    padding: 5% 5%;
+}
+
+.physicalHealth p{
+    text-align: left;
+
+}
+
+.mentalHealth{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap:5%;
+    padding: 5%;
+    margin: 0 auto;
+
+}
+
+.mentalHealth article{
+    border:solid 2px #FFCB05;
+    text-align: center;
+    padding: 5% 5%;
+    text-align: center;
+}
+
+.lifeOutside ul{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+
+.lifeOutside ul li{
+    text-align: center;
+    padding: 5% 5%;
+    text-align: left;
+}
+
+strong{
+    font-weight: bold;
+}
+
+
+.academicSupport_intro{
+    margin: 10% 5%;
+   
+}
+
+.academicSupport{
+    margin: 15% auto;
+}
+
+.tutoring{
+    text-align: center;
+}
+
+.studyGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3,auto);
+    align-items: center;
+    
+}
+
+.grid-item{
+    display: flex;
+    align-items: center;
+
+}
+
+.grid-item img{
+    width: 100%;
+
+}
+
+.studySpaces h3{
+    text-align: center;
+    font-weight: bold;
+}
+
+.studySpaces p{
+    font-size: 80%;
+}
+
+
+a.uhs{
+    display: block;
+    text-align: center;
+}
+
+a.caps{
+    display: block;
+    text-align: center;
+}
+
+.locIntro img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+.MBC {
+    display: block;
+    text-align: center;
+}
+
+.offContainer{
+   
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2, auto);
+    justify-items: center;
+}
+
+.offContainer h3{
+   
+    text-align: center;
+    color: #00274C;
+}
+
+.offContainer-item{
+    padding: 5%;
+}
+
+.linkToOff{
+    padding: 5%;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+
+.onContainer{
+    margin-top: 15%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2, auto);
+    justify-items: center;
+}
+
+.onContainer-item{
+    padding: 5%;
+}
+
+.linkToOn{
+    padding: 5%;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.onContainer h3{
+   
+    text-align: center;
+    color: #00274C;
+}
+
+footer{
+    font-size: 80%;
+}
